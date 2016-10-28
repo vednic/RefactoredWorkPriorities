@@ -36,12 +36,12 @@
 	<WorkGiverDef>
 		<defName>RemoveRoofs</defName>
 		<label>remove roofs</label>
-		<giverClass>WorkGiver_RemoveRoof</giverClass>
+		<giverClass>RWP.WorkGiver_RemoveRoofSpecial</giverClass>
 		<workType>Construction</workType>
 		<priorityInType>200</priorityInType>
 		<verb>remove roof</verb>
 		<gerund>removing roof</gerund>
-		<scanThings>false</scanThings>
+		<scanThings>true</scanThings>
 		<scanCells>true</scanCells>
 		<requiredCapacities>
 			<li>Manipulation</li>
